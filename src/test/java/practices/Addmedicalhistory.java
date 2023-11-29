@@ -11,7 +11,7 @@ public class Addmedicalhistory {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
-		driver.get(");
+	//	driver.get(");
 		
 		
 	}

@@ -1,4 +1,4 @@
-0package datadrivenprograms;
+package datadrivenprograms;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

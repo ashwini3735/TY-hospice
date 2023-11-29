@@ -21,7 +21,7 @@ public class TestNG<dependason> {
 		System.out.println("test editted");
 	}
 	
-	@Test( priority=)
+	@Test( priority=1)
 	public void Deletetest()
 	{
 		System.out.println("test deletted");

@@ -21,11 +21,11 @@ public class Hardassert {
 	@Test
 	public void Hardassetr_test2()
 	{
-		int a=null;
+		
 		System.out.println("---test1---");
 		System.out.println("---test2---");
 		System.out.println("---test3---");
-		assertNotNull(a);
+		//assertNotNull(a);
 		System.out.println("---test4---");
 		System.out.println("---test5---");
 	}

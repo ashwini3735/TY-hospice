@@ -5,8 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.hms.GenricUtils.WebDriverUtils;
+
 public class ConformationMessgepage {
-	
+	WebDriverUtils WLib = new  WebDriverUtils();
 	@FindBy(xpath="//p[@style='color:red;']")
 	public WebElement passwordchangedconformationmessg;
 	
