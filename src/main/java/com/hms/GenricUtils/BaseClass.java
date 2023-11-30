@@ -34,11 +34,11 @@ public class BaseClass {
 		DLib.connectDB();
 		System.out.println("---conncted to database------");
 	}
-	@Parameters("BROWSER")
+	//@Parameters("BROWSER")
 	@BeforeClass(alwaysRun = true)
-	public void cofig_BC(String BROWSER) throws IOException
+	public void cofig_BC() throws IOException
 	{
-	//String BROWSER = FLib.readdatafrompropertyfile("browser");
+	String BROWSER = FLib.readdatafrompropertyfile("browser");
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
 			driver = new ChromeDriver();
@@ -52,7 +52,7 @@ public class BaseClass {
 		{
 			System.out.println("wrong browser");
 		}
-		sdriver = driver;
+		//sdriver = driver;
 		WLib.maximizewindow(driver);
 	}
 	@BeforeMethod(alwaysRun = true)
