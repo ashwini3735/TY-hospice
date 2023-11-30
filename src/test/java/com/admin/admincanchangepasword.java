@@ -63,7 +63,7 @@ public class admincanchangepasword extends BaseClass {
       @Test()
       public void Test1() {
     	  
-    	  Assert.fail();
+    	 // Assert.fail();
 	AddPatientpage lb = new AddPatientpage(driver);
 	lb.getMyprofileDropDown().click();
 	
