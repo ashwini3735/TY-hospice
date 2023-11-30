@@ -16,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 import com.hms.GenricUtils.ExcelUtilite;
 import com.hms.GenricUtils.FileUtiles;
@@ -28,8 +29,10 @@ import com.objectRepository.UserDashBoardpage;
 import com.objectRepository.UserLoginpage;
 import com.objectRepository.bookappointmentpage;
 
-public class patientbookappointment {
-	public static void main(String[] args) throws IOException, InterruptedException {
+public class patientbookappointment_test {
+	
+	@Test
+	public void test5() throws IOException, InterruptedException {
 		
 		// create object for all genric utility classes
 				javaUtiles jLib = new javaUtiles();
@@ -84,7 +87,7 @@ public class patientbookappointment {
 			bap.getSeletam();
 			
 
-			Thread.sleep(5000);
+			
 			bap.getsubmitbutton().click();
 		//	Thread.sleep(5000);
 			// click on ok popup

@@ -31,10 +31,11 @@ import com.objectRepository.AdminLoginpage;
 import com.objectRepository.Doctorloginpage;
 import com.objectRepository.Homepage;
 
-public class newdoctor {
+public class newdoctortest_test {
 //	private static String String;
 
-	public static void main(String[] args) throws IOException {
+	@Test
+	public void test4() throws IOException {
 		
 		// create object for all genric utility classes
 		javaUtiles jLib = new javaUtiles();
@@ -80,16 +81,13 @@ public class newdoctor {
 			
 	        eLib.readmultipledata("NewDoctordata", driver) ;
 	   
-			//click on submit button
+			
 	        dp.getSubmitbutton().click();
-			//driver.findElement(By.name("submit")).click();
-			// click on ok
+			
 			String text=	driver.switchTo().alert().getText();
-			//System.out.println(text);
-			//String text	= WLib.Handlealartpopuptext(driver, String);
+			
 			 WLib.Handlealartpopupaccept(driver);
-			//WLib.Handlealartpopuptext(driver,String);
-			//String text=	driver.switchTo().alert().getText();
+			
 			System.out.println( text);
 			
 		// logout as admin

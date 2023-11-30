@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T15:07:56 IST" name="Default suite" finished-at="2023-11-30T15:08:19 IST" duration-ms="23251">
+  <suite started-at="2023-11-30T15:53:26 IST" name="Default suite" finished-at="2023-11-30T15:53:37 IST" duration-ms="10703">
     <groups>
     </groups>
-    <test started-at="2023-11-30T15:07:56 IST" name="Default test" finished-at="2023-11-30T15:08:19 IST" duration-ms="23251">
-      <class name="com.user.patientupdateprofile_test">
-        <test-method signature="test1()[pri:0, instance:com.user.patientupdateprofile_test@55634720]" started-at="2023-11-30T15:07:56 IST" name="test1" finished-at="2023-11-30T15:08:19 IST" duration-ms="23148" status="PASS">
+    <test started-at="2023-11-30T15:53:26 IST" name="Default test" finished-at="2023-11-30T15:53:37 IST" duration-ms="10703">
+      <class name="com.doctor.newdoctor">
+        <test-method signature="test4()[pri:0, instance:com.doctor.newdoctor@55634720]" started-at="2023-11-30T15:53:26 IST" name="test4" finished-at="2023-11-30T15:53:37 IST" duration-ms="10636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.user.patientupdateprofile_test -->
+        </test-method> <!-- test4 -->
+      </class> <!-- com.doctor.newdoctor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

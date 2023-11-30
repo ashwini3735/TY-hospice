@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="com.doctor.Addmedicalhistroy_test"/>
+      <class name="com.admin.Admineditthedoctor_test"/>
+      <class name="com.doctor.newdoctortest_test"/>
+      <class name="com.admin.admincanchangepasword_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

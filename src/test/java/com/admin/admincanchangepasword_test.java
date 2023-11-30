@@ -30,35 +30,9 @@ import com.objectRepository.AdminLoginpage;
 import com.objectRepository.Changepasswordpage;
 import com.objectRepository.Homepage;
 //@Listeners(com.hms.GenricUtils.LisimpClass.class)
-public class admincanchangepasword extends BaseClass {
+public class admincanchangepasword_test extends BaseClass {
 	
 		
-	/*	// create object for all genric utility classes
-				javaUtiles jLib = new javaUtiles();
-				ExcelUtilite eLib = new ExcelUtilite();
-				FileUtiles FLib = new FileUtiles();
-				WebDriverUtils WLib = new WebDriverUtils();
-				FLib.readdatafrompropertyfile(IPathConstants.FilePath);
-				
-				String URL	= FLib.readdatafrompropertyfile("url");
-				String UN	= FLib.readdatafrompropertyfile("usernameadmin");
-				String PWD	= FLib.readdatafrompropertyfile("passwordadmin");*/
-     
-		
-	        
-	       // Ccreate webdriver
-	  /*      WebDriver driver =new  ChromeDriver();
-	        WLib.maximizewindow(driver);
-	      WLib.waitforPageLoad(driver, 5);
-	       
-	      driver.get(URL);
-	        //login as admin
-	   Homepage hp = new Homepage(driver);
-	   hp.click_AdminLink();
-	AdminLoginpage al = new AdminLoginpage(driver);
-	al.getUsernameTF().sendKeys(UN);
-	al.getPasswordTF().sendKeys(PWD);
-	al.Clic_Loginbutton();*/
 	
       @Test()
       public void Test1() {

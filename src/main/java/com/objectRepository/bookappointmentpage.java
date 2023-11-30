@@ -9,7 +9,7 @@ public class bookappointmentpage {
 	@FindBy(xpath="//button[@name='submit']")
 	private WebElement submitbutton;
 	
-	@FindBy(name="appdate")
+	@FindBy(xpath="//input[@name='appdate']")
 	private WebElement Selectdatedropdown;
 	
 	@FindBy(xpath="//table/tbody/tr/td[text()='27']")
