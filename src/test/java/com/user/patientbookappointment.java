@@ -42,6 +42,8 @@ public class patientbookappointment {
 				String UN	= FLib.readdatafrompropertyfile("usernameuser");
 				String PWD	= FLib.readdatafrompropertyfile("passworduser");
 		
+				
+				
 	        WebDriver driver =new  ChromeDriver();
 	        WLib.maximizewindow(driver);
 	        WLib.waitforPageLoad(driver, 5);
