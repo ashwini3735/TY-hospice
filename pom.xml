@@ -78,7 +78,7 @@
   </properties>
    <profiles>
 	  <profile>
-		  <id>smoke</id>
+		  <id>batch</id>
 		  <build>
 			  <pluginManagement>
 				  <plugins>
