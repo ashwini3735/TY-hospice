@@ -15,6 +15,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.hms.GenricUtils.ExcelUtilite;
 import com.hms.GenricUtils.FileUtiles;
@@ -30,7 +31,7 @@ import com.objectRepository.UserLoginpage;
 
 public class patientupdateprofile_test {
 	
-	
+	@Test
 	public void test1() throws IOException {
 		
 		// create object for all genric utility classes

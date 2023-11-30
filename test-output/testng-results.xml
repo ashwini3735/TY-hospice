@@ -2,40 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T13:25:09 IST" name="Default suite" finished-at="2023-11-30T13:25:18 IST" duration-ms="9330">
+  <suite started-at="2023-11-30T15:07:56 IST" name="Default suite" finished-at="2023-11-30T15:08:19 IST" duration-ms="23251">
     <groups>
     </groups>
-    <test started-at="2023-11-30T13:25:09 IST" name="Default test" finished-at="2023-11-30T13:25:18 IST" duration-ms="9330">
-      <class name="com.doctor.admincanchangepasword">
-        <test-method is-config="true" signature="cofig_DB()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:08 IST" name="cofig_DB" finished-at="2023-11-30T13:25:09 IST" duration-ms="478" status="PASS">
+    <test started-at="2023-11-30T15:07:56 IST" name="Default test" finished-at="2023-11-30T15:08:19 IST" duration-ms="23251">
+      <class name="com.user.patientupdateprofile_test">
+        <test-method signature="test1()[pri:0, instance:com.user.patientupdateprofile_test@55634720]" started-at="2023-11-30T15:07:56 IST" name="test1" finished-at="2023-11-30T15:08:19 IST" duration-ms="23148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cofig_DB -->
-        <test-method is-config="true" signature="cofig_BC()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:09 IST" name="cofig_BC" finished-at="2023-11-30T13:25:14 IST" duration-ms="5265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cofig_BC -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:14 IST" name="congig_BM" finished-at="2023-11-30T13:25:16 IST" duration-ms="1762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="Test1()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:16 IST" name="Test1" finished-at="2023-11-30T13:25:17 IST" duration-ms="1531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:17 IST" name="config_AM" finished-at="2023-11-30T13:25:18 IST" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:18 IST" name="config_AC" finished-at="2023-11-30T13:25:18 IST" duration-ms="340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.doctor.admincanchangepasword@d86a6f]" started-at="2023-11-30T13:25:18 IST" name="config_AS" finished-at="2023-11-30T13:25:18 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AS -->
-      </class> <!-- com.doctor.admincanchangepasword -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.user.patientupdateprofile_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
