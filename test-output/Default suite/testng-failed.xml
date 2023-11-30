@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.doctor.admincanchangepasword">
+      <class name="com.user.patientupdateprofile_test">
         <methods>
-          <include name="Test1"/>
-          <include name="cofig_DB"/>
-          <include name="config_AM"/>
-          <include name="cofig_BC"/>
-          <include name="congig_BM"/>
-          <include name="config_AC"/>
-          <include name="config_AS"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.doctor.admincanchangepasword -->
+      </class> <!-- com.user.patientupdateprofile_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
