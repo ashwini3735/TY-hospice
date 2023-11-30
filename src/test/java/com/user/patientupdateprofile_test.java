@@ -28,8 +28,10 @@ import com.objectRepository.UserDashBoardpage;
 import com.objectRepository.UserEditProfilepage;
 import com.objectRepository.UserLoginpage;
 
-public class patientupdateprofile {
-	public static void main(String[] args) throws IOException {
+public class patientupdateprofile_test {
+	
+	
+	public void test1() throws IOException {
 		
 		// create object for all genric utility classes
 		javaUtiles jLib = new javaUtiles();
@@ -43,7 +45,9 @@ public class patientupdateprofile {
 		String PWD	= FLib.readdatafrompropertyfile("passworduser");
 
          WebDriver driver =new  ChromeDriver();
+         System.out.println("--browserlanuhed---");
         WLib.maximizewindow(driver);
+        System.out.println("---url---");
             //login as patient
            driver.get(URL);
            //wait for
