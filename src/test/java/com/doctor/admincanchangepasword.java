@@ -78,6 +78,8 @@ public class admincanchangepasword extends BaseClass {
 	    cp.getSubmitbutton().click();
 	  
 		String text=	driver.findElement(By.xpath("//p[@style='color:red;']")).getText();
+		
+		
 		System.out.println(text);
 	}
 
